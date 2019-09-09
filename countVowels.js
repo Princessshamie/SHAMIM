@@ -1,7 +1,12 @@
 function getVowels(str){
     var str = 'shamie'
-    var countvowels = (str.match(/[aeiou]/gi) || []).length;
     var Vowels =str.match(/[aeiou]/gi);
-    var arr =[]; arr =Vowels.concat(countvowels)
+    var countvowels = Vowels.length;
+    var Vowelstr =Vowels.join('')
+
+    var arr =[]; 
+    arr.push(Vowelstr)
+    arr.push(countvowels)
     console.log(arr)
-}getVowels();
+}
+getVowels();
