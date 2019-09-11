@@ -13,7 +13,6 @@ function getVowels(){
     for(var x=0; x<word.length; x++){
 
         if (Duplicate.includes(word[x])){
-            // countDuplicate++
             this.countDuplicate++
         }
         else{
@@ -21,7 +20,6 @@ function getVowels(){
         }
     }
     var Vowelstr =Vowels.join('')
-// var countDuplicate = Duplicate.length
     var arr =[]; 
     arr.push(Vowelstr)
     arr.push(countDuplicate)
