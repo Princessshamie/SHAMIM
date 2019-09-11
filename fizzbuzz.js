@@ -1,5 +1,5 @@
 var array1 = [1,2,3,4,5,6] 
-var array2 = [4,5,6,55]
+var array2 = [4,5,]
 
 function fizzbuzz(a, b){
     var arr3 = a.concat(b)
